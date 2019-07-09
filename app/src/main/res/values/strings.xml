@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">android_byte_dance</string>
+    <string name="none_value">null</string>
 </resources>

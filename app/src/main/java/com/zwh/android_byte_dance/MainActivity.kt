@@ -1,5 +1,6 @@
 package com.zwh.android_byte_dance
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -38,6 +39,13 @@ class MainActivity : AppCompatActivity() {
                     switch.text = "picture2"
                     imageView1.setImageResource(R.drawable.download_1)
                 }
+            }
+        })
+
+        button2.setOnClickListener(object : View.OnClickListener {
+            override fun onClick(p0: View?) {
+                print("clicked")
+                startActivity(Intent(this@MainActivity, RecycleActivity::class.java))
             }
         })
     }

@@ -45,5 +45,14 @@
             app:layout_constraintBottom_toTopOf="@+id/switch1" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:max="100" android:progress="100"/>
+    <Button
+            android:text="Recycle_view"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            app:layout_constraintBottom_toTopOf="@+id/imageView1" android:layout_marginBottom="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+    />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
