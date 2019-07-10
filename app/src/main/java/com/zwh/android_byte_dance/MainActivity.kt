@@ -48,6 +48,18 @@ class MainActivity : AppCompatActivity() {
                 startActivity(Intent(this@MainActivity, RecycleActivity::class.java))
             }
         })
+
+        button3.setOnClickListener(object : View.OnClickListener {
+            override fun onClick(p0: View?) {
+                startActivity(Intent(this@MainActivity, AnimatorActivity::class.java))
+            }
+        })
+
+        chapter_button.setOnClickListener(object : View.OnClickListener {
+            override fun onClick(p0: View?) {
+                startActivity(Intent(this@MainActivity, LottieActivity::class.java))
+            }
+        })
     }
 
     fun ChangeButtononClick(v: View?) {
