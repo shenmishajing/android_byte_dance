@@ -9,11 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ClockActivity"></activity>
+        <activity android:name=".ImageActivity"></activity>
+        <activity android:name=".ClockActivity" />
         <activity android:name=".FragmentActivity" />
-        <activity android:name=".ChapterActivity" />
         <activity android:name=".LottieActivity" />
         <activity android:name=".AnimatorActivity" />
+        <activity android:name=".RecycleActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,7 +22,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RecycleActivity" />
     </application>
 
 </manifest>
