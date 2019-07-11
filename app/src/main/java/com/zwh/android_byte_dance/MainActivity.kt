@@ -61,6 +61,12 @@ class MainActivity : AppCompatActivity() {
             }
         })
 
+        button5.setOnClickListener(object : View.OnClickListener {
+            override fun onClick(p0: View?) {
+                startActivity(Intent(this@MainActivity, ClockActivity::class.java))
+            }
+        })
+
         chapter_button.setOnClickListener(object : View.OnClickListener {
             override fun onClick(p0: View?) {
                 startActivity(Intent(this@MainActivity, LottieActivity::class.java))
