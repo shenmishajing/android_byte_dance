@@ -13,7 +13,6 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-    private var counter = 0;
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -51,6 +50,12 @@ class MainActivity : AppCompatActivity() {
         lottie_button.setOnClickListener(object : View.OnClickListener {
             override fun onClick(p0: View?) {
                 startActivity(Intent(this@MainActivity, LottieActivity::class.java))
+            }
+        })
+
+        todo_button.setOnClickListener(object : View.OnClickListener {
+            override fun onClick(p0: View?) {
+                startActivity(Intent(this@MainActivity, TodoListActivity::class.java))
             }
         })
     }

@@ -43,4 +43,10 @@
         android:layout_height="wrap_content"
         android:text="chapter_4 Clock" />
 
+    <Button
+        android:id="@+id/todo_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="chapter_6 TODO_list" />
+
 </LinearLayout>
